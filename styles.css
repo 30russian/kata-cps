@@ -66,6 +66,10 @@ body {
     list-style-type: none;
 }
 
+.navigation__item {
+    margin: 0;
+}
+
 .navigation__logo {
     background: no-repeat center url("img/logo.svg");
     width: 96px;
@@ -204,10 +208,6 @@ body {
         display: none;
     }
 
-    .navigation__item {
-        margin: 0;
-    }
-
     .slide-menu {
         overflow: scroll;
     }
@@ -232,12 +232,8 @@ body {
         padding-left: 24px;
     }
 
-    .navigation__item {
-        margin-right: 16px;
-    }
-
-    .navigation__item:last-child {
-        margin-right: 0;
+    .navigation__list {
+        gap: 16px;
     }
 
     .navigation__link > span {
@@ -287,8 +283,8 @@ body {
         border-bottom: none;
     }
 
-    .navigation__item {
-        margin-right: 16px;
+    .navigation__list {
+        gap: 16px;
     }
 
     .navigation__item:nth-child(1),
