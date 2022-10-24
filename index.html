@@ -15,40 +15,40 @@
     <nav class="navigation page-header__navigation">
       <ul class="navigation__list">
         <li class="navigation__item">
-          <a href="#" class="navigation__link">
+          <a aria-label="Открыть меню" href="#" class="navigation__link">
             <img src="img/burger.png" alt="Меню">
           </a>
         </li>
         <li class="navigation__divider navigation__item"></li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">
+          <a aria-label="Перейти на главную" href="#" class="navigation__link">
             <img src="img/logo.svg" alt="Логотип">
           </a>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">
+          <a aria-label="Позвонить" href="#" class="navigation__link">
             <img src="img/call.png" alt="Позвонить">
           </a>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">
+          <a aria-label="Открыть чат" href="#" class="navigation__link">
             <img src="img/chat.png" alt="Чат">
           </a>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">
+          <a aria-label="Открыть страницу профиля" href="#" class="navigation__link">
             <img src="img/profile.png" alt="Профиль">
           </a>
         </li>
         <li class="navigation__divider navigation__item"></li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">
+          <a aria-label="Оставить заявку" href="#" class="navigation__link">
             <span>Оставить заявку</span>
             <img src="img/repair.png" alt="Оставить заявку">
           </a>
         </li>
         <li class="navigation__item">
-          <a href="#" class="navigation__link">
+          <a aria-label="Узнать статус ремонта" href="#" class="navigation__link">
             <span>Статус ремонта</span>
             <img src="img/status.png" alt="Статус ремонта">
           </a>
@@ -59,26 +59,32 @@
   </header>
   <main class="main-block">
     <nav class="slide-menu main-block__slider">
-      <ul class="slide-menu__list">
-        <li class="slide-menu__item slide-menu__item--bordered">
-          <a href="#">Ремонтируемые устройства</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#">Дополнительные услуги</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#">Цены на услуги</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#">Адреса сервисных центров</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#">Специальные цены</a>
-        </li>
-        <li class="slide-menu__item">
-          <a href="#">Отзывы</a>
-        </li>
-      </ul>
+      <div class="slide-menu__list">
+        <div class="slide-menu__item">
+          <input type="radio" name="slide-menu-choose" id="input_radio_1" checked>
+          <label for="input_radio_1">Ремонтируемые устройства</label>
+        </div>
+        <div class="slide-menu__item">
+          <input type="radio" name="slide-menu-choose" id="input_radio_2">
+          <label for="input_radio_2">Дополнительные услуги</label>
+        </div>
+        <div class="slide-menu__item">
+          <input type="radio" name="slide-menu-choose" id="input_radio_3">
+          <label for="input_radio_3">Цены на услуги</label>
+        </div>
+        <div class="slide-menu__item">
+          <input type="radio" name="slide-menu-choose" id="input_radio_4">
+          <label for="input_radio_4">Адреса сервисных центров</label>
+        </div>
+        <div class="slide-menu__item">
+          <input type="radio" name="slide-menu-choose" id="input_radio_5">
+          <label for="input_radio_5">Специальные цены</label>
+        </div>
+        <div class="slide-menu__item">
+          <input type="radio" name="slide-menu-choose" id="input_radio_6">
+          <label for="input_radio_6">Отзывы</label>
+        </div>
+      </div>
     </nav>
     <section class="about">
       <article class="article-short about__article">
@@ -90,7 +96,7 @@
             Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
           </p>
         </div>
-        <a href="#" class="article-short__full-link">Читать далее</a>
+        <a aria-label="Читать далее" href="#" class="article-short__full-link">Читать далее</a>
       </article>
       <img class="about__illustration" src="img/_MG_3223.jpg" alt="Фотография офиса" />
     </section>
