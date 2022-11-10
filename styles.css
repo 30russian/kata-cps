@@ -277,10 +277,6 @@ body {
     color: #1B1C21;
 }
 
-.sidebar__main-menu-item > input {
-    display: none;
-}
-
 .sidebar__main-menu-item > input:checked + label {
     background: url("img/highlight.png") no-repeat;
     color: #7E7E82;
@@ -332,10 +328,6 @@ body {
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #1B1C21;
-}
-
-.sidebar__footer-language-list-item > input {
-    display: none;
 }
 
 .sidebar__footer-language-list-item > input:checked + label {
