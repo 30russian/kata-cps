@@ -81,6 +81,12 @@ body {
   list-style-type: none;
 }
 
+.sidebar__main-menu-items-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
 .navigation__item, .sidebar__navigation-item {
   margin: 0;
 }
