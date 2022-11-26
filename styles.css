@@ -358,10 +358,13 @@ body {
 }
 
 .services__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
   display: flex;
   column-gap: 32px;
   row-gap: 16px;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   max-height: 160px;
   overflow-y: hidden;
@@ -470,6 +473,8 @@ body {
 
   .swiper-wrapper {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
   }
 
   .swiper-slide {
